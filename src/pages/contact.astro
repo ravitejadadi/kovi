@@ -2,9 +2,9 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { site, heroImage, services, designPackages, areasServed } from '../data/site';
-const whatsapp = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hi Home Studio, I want to book a free design consultation.')}`;
+const whatsapp = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hi Kovi, I want to book a free design consultation.')}`;
 ---
-<Base title="Contact — Book a Free Interior Design Consultation | Home Studio Interiors"
+<Base title="Contact — Book a Free Interior Design Consultation | Kovispace Interior Studio"
   description="Book a free interior design consultation in Islamabad & Rawalpindi for kitchens, wardrobes, vanities, media walls, doors and full-home turnkey interiors.">
   <section class="relative overflow-hidden bg-graphite pt-36 pb-20 text-white md:pt-44 md:pb-28">
     <div class="absolute inset-0">
@@ -25,7 +25,7 @@ const whatsapp = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encod
             ['Studio', site.address],
             ['Email', site.email],
             ['Rating', `${site.rating.value} / 5 · ${site.rating.count}+ reviews`],
-            ['Coverage', 'Islamabad & Rawalpindi'],
+            ['Coverage', 'Hyderabad'],
           ].map(([label, value]) => (
             <div class="rounded-2xl border border-white/10 bg-white/[0.045] p-5">
               <p class="number-mark">{label}</p>
@@ -38,7 +38,7 @@ const whatsapp = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encod
       <div class="rounded-[1.8rem] border border-white/10 bg-graphite/82 p-6 text-white shadow-[0_30px_90px_-45px_rgba(0,0,0,.9)] backdrop-blur-xl md:p-8" data-reveal>
         <p class="section-kicker">Project quote</p>
         <h2 class="mt-4 font-display text-3xl text-white md:text-4xl">Get a guided quote before your site visit.</h2>
-        <p class="mt-5 text-sm leading-7 text-muted">Share your project type, budget and timeline in a short premium form. We’ll open WhatsApp with a clean, ready-to-send enquiry for the Home Studio team.</p>
+        <p class="mt-5 text-sm leading-7 text-muted">Share your project type, budget and timeline in a short premium form. We’ll open WhatsApp with a clean, ready-to-send enquiry for the Kovi team.</p>
         <div class="mt-8 grid gap-3">
           {[
             'Required client details',

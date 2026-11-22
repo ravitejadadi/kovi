@@ -1,4 +1,4 @@
-# Home Studio Interiors — 6-Month SEO, AEO, GEO & LLMO Blog Calendar
+# Kovispace Interior Studio — 6-Month SEO, AEO, GEO & LLMO Blog Calendar
 
 Purpose: publish five high-quality guides per month to grow visibility for Islamabad interior design, kitchens, wardrobes, media walls, vanities, doors and remodeling searches while sending qualified homeowners to WhatsApp quote requests.
 

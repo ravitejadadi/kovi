@@ -12,8 +12,12 @@ const servicePreview = [
 ---
 <header id="site-header" class="fixed top-0 left-0 z-40 w-full transition-all duration-500" data-header>
   <div class="container-page flex items-center justify-between py-4">
-    <a href="/" aria-label={`${site.name} home`} class="block">
-      <img src="/images/brand/hs-logo-cropped-260.webp" alt="Home Studio Interiors" class="h-11 w-auto object-contain md:h-14" width="260" height="177" loading="eager" fetchpriority="high" decoding="async" />
+    <a href="/" aria-label={`${site.name} home`} class="flex items-center gap-3.5 group">
+      <img src="/images/brand/kovispace-mark.webp" alt="Kovispace Interior Studio" class="h-10 w-auto object-contain md:h-12" width="175" height="171" loading="eager" fetchpriority="high" decoding="async" />
+      <div class="flex flex-col">
+        <span class="font-display text-xl font-bold tracking-[0.14em] text-white uppercase leading-none md:text-2xl group-hover:text-accent transition-colors">Kovispace</span>
+        <span class="text-[0.62rem] tracking-[0.24em] text-white/70 uppercase font-medium mt-1">Interior Studio</span>
+      </div>
     </a>
 
     <nav class="hidden items-center gap-9 lg:flex" aria-label="Primary">
@@ -54,7 +58,13 @@ const servicePreview = [
 <div id="mobile-menu" class="fixed inset-0 z-50 hidden bg-graphite text-white">
   <div class="container-page flex h-full flex-col">
     <div class="flex items-center justify-between py-4">
-      <img src="/images/brand/hs-logo-cropped-260.webp" alt="Home Studio Interiors" class="h-12 w-auto object-contain sm:h-14" width="260" height="177" loading="eager" fetchpriority="high" decoding="async" />
+      <a href="/" aria-label={`${site.name} home`} class="flex items-center gap-3">
+        <img src="/images/brand/kovispace-mark.webp" alt="Kovispace Interior Studio" class="h-11 w-auto object-contain" width="175" height="171" loading="eager" fetchpriority="high" decoding="async" />
+        <div class="flex flex-col">
+          <span class="font-display text-xl font-bold tracking-[0.14em] text-white uppercase leading-none">Kovispace</span>
+          <span class="text-[0.6rem] tracking-[0.22em] text-white/70 uppercase font-medium mt-1">Interior Studio</span>
+        </div>
+      </a>
       <button id="menu-close" class="text-4xl leading-none text-white" aria-label="Close menu">&times;</button>
     </div>
     <nav class="mt-8 flex flex-col gap-1 overflow-y-auto" aria-label="Mobile">

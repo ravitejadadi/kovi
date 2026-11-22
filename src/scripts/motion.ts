@@ -168,12 +168,12 @@ export function initMotion() {
     lightboxIndex = (index + lightboxItems.length) % lightboxItems.length;
     const item = lightboxItems[lightboxIndex];
     const image = item.dataset.lightbox || item.getAttribute('src') || item.querySelector('img')?.getAttribute('src') || '';
-    const caption = item.dataset.lightboxTitle || item.getAttribute('alt') || item.querySelector('img')?.getAttribute('alt') || 'Home Studio Interiors';
+    const caption = item.dataset.lightboxTitle || item.getAttribute('alt') || item.querySelector('img')?.getAttribute('alt') || 'Kovispace Interior Studio';
     lightboxImg.src = image;
     lightboxImg.alt = caption;
     if (lightboxCaption) lightboxCaption.textContent = caption;
     if (lightboxWa) {
-      const text = encodeURIComponent(`Hi Home Studio, I am interested in this design: ${caption}`);
+      const text = encodeURIComponent(`Hi Kovi, I am interested in this design: ${caption}`);
       lightboxWa.href = `https://wa.me/923392001959?text=${text}`;
     }
     lightbox.classList.remove('hidden');

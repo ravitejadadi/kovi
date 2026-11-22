@@ -72,10 +72,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'interior-designers-islamabad',
     eyebrow: 'Islamabad interior design',
-    title: 'Interior Designers in Islamabad — Luxury Home Interiors | Home Studio Interiors',
-    description: 'Home Studio Interiors provides interior design in Islamabad for kitchens, wardrobes, media walls, vanities, doors and full home remodeling with 3D planning and turnkey execution.',
+    title: 'Interior Designers in Islamabad — Luxury Home Interiors | Kovispace Interior Studio',
+    description: 'Kovispace Interior Studio provides interior design in Islamabad for kitchens, wardrobes, media walls, vanities, doors and full home remodeling with 3D planning and turnkey execution.',
     h1: 'Interior designers in Islamabad for calm, functional luxury homes.',
-    intro: 'Home Studio Interiors designs and builds residential interiors in Islamabad, including kitchens, wardrobes, media walls, bathroom vanities, doors and full home remodeling. Our process combines measured planning, material selection, 3D visualization and accountable turnkey installation.',
+    intro: 'Kovispace Interior Studio designs and builds residential interiors in Islamabad, including kitchens, wardrobes, media walls, bathroom vanities, doors and full home remodeling. Our process combines measured planning, material selection, 3D visualization and accountable turnkey installation.',
     image: '/images/hero/orange-stair-lounge.webp',
     serviceName: 'Interior Design Islamabad',
     serviceType: 'Residential interior design',
@@ -89,13 +89,13 @@ export const seoLandingPages: SeoLandingPage[] = [
         points: ['Full home design direction', 'Custom kitchens and wardrobes', 'Media walls, vanities and doors', 'Material boards and 3D design support'],
       },
       {
-        title: 'Why clients choose Home Studio Interiors',
+        title: 'Why clients choose Kovispace Interior Studio',
         text: 'A strong interior project needs more than mood boards. We plan dimensions, storage, electrical points, lighting layers, hardware, finishes and site execution before fabrication begins.',
         points: ['Clear design consultation', 'Locally suitable materials', 'Turnkey project management', 'WhatsApp-first communication for quick decisions'],
       },
     ],
     faqs: [
-      { question: 'Do you provide interior design services in Islamabad?', answer: 'Yes. Home Studio Interiors provides residential interior design services across Islamabad, including kitchens, wardrobes, media walls, vanities, doors and full home remodeling.' },
+      { question: 'Do you provide interior design services in Islamabad?', answer: 'Yes. Kovispace Interior Studio provides residential interior design services across Islamabad, including kitchens, wardrobes, media walls, vanities, doors and full home remodeling.' },
       { question: 'Can I get a quote on WhatsApp?', answer: `Yes. You can send your location, room photos, measurements and requirements on WhatsApp at ${site.phone}, and the team can guide you on the next step.` },
       { question: 'Do you handle both design and installation?', answer: 'Yes. The studio manages design direction, material selection, fabrication coordination and turnkey installation for selected residential interior services.' },
     ],
@@ -108,10 +108,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'interior-designers-rawalpindi',
     eyebrow: 'Rawalpindi interior design',
-    title: 'Interior Designers in Rawalpindi — Kitchens, Wardrobes & Homes | Home Studio Interiors',
+    title: 'Interior Designers in Rawalpindi — Kitchens, Wardrobes & Homes | Kovispace Interior Studio',
     description: 'Interior designers in Rawalpindi for kitchens, wardrobes, media walls, vanities, doors and home remodeling with premium finishes and turnkey installation.',
     h1: 'Interior designers in Rawalpindi for modern family homes.',
-    intro: 'Home Studio Interiors serves Rawalpindi homeowners with measured interior planning, custom cabinetry, premium finishes and turnkey installation for kitchens, wardrobes, media walls, vanities, doors and full home upgrades.',
+    intro: 'Kovispace Interior Studio serves Rawalpindi homeowners with measured interior planning, custom cabinetry, premium finishes and turnkey installation for kitchens, wardrobes, media walls, vanities, doors and full home upgrades.',
     image: '/images/services/wardrobe-live/18-1-10.webp',
     serviceName: 'Interior Design Rawalpindi',
     serviceType: 'Residential interior design',
@@ -131,7 +131,7 @@ export const seoLandingPages: SeoLandingPage[] = [
       },
     ],
     faqs: [
-      { question: 'Do you work in Rawalpindi?', answer: 'Yes. Home Studio Interiors works with clients in Rawalpindi and Islamabad for residential interior design, kitchens, wardrobes, vanities, doors and media walls.' },
+      { question: 'Do you work in Rawalpindi?', answer: 'Yes. Kovispace Interior Studio works with clients in Rawalpindi and Islamabad for residential interior design, kitchens, wardrobes, vanities, doors and media walls.' },
       { question: 'Can you renovate one room only?', answer: 'Yes. You can start with a kitchen, wardrobe, media wall, vanity or door package without committing to a full home remodeling project.' },
       { question: 'How do I start a Rawalpindi project?', answer: 'Send photos, approximate measurements and your requirement on WhatsApp. The team can guide you on consultation, design direction and quotation.' },
     ],
@@ -144,10 +144,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'kitchen-design-islamabad',
     eyebrow: 'Kitchen design Islamabad',
-    title: 'Kitchen Design in Islamabad — Modular & Luxury Kitchens | Home Studio Interiors',
+    title: 'Kitchen Design in Islamabad — Modular & Luxury Kitchens | Kovispace Interior Studio',
     description: 'Kitchen design in Islamabad for modern and classic kitchens, modular layouts, premium cabinetry, quartz or granite worktops and turnkey installation.',
     h1: 'Kitchen design in Islamabad with smart layouts and premium finishes.',
-    intro: 'Home Studio Interiors designs and installs kitchens in Islamabad with efficient work zones, durable cabinetry, premium worktops, task lighting and soft-close hardware. Every kitchen is planned for daily cooking, storage and long-term maintenance.',
+    intro: 'Kovispace Interior Studio designs and installs kitchens in Islamabad with efficient work zones, durable cabinetry, premium worktops, task lighting and soft-close hardware. Every kitchen is planned for daily cooking, storage and long-term maintenance.',
     image: '/images/services/kitchen-live/09-1-18.webp',
     serviceName: 'Kitchen Design Islamabad',
     serviceType: 'Kitchen design and installation',
@@ -167,7 +167,7 @@ export const seoLandingPages: SeoLandingPage[] = [
       },
     ],
     faqs: [
-      { question: 'Do you design both modern and classic kitchens?', answer: 'Yes. Home Studio Interiors offers modern, classic, transitional and farmhouse-inspired kitchen directions with material and finish options.' },
+      { question: 'Do you design both modern and classic kitchens?', answer: 'Yes. Kovispace Interior Studio offers modern, classic, transitional and farmhouse-inspired kitchen directions with material and finish options.' },
       { question: 'What is included in kitchen design?', answer: 'Kitchen design typically includes layout planning, cabinetry direction, material selection, hardware guidance, lighting consideration and installation planning.' },
       { question: 'Can I request a kitchen quote on WhatsApp?', answer: 'Yes. Send measurements, photos and the kitchen style you prefer on WhatsApp to begin quotation guidance.' },
     ],
@@ -180,10 +180,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'kitchen-design-rawalpindi',
     eyebrow: 'Kitchen design Rawalpindi',
-    title: 'Kitchen Design in Rawalpindi — Modular Kitchen Installation | Home Studio Interiors',
+    title: 'Kitchen Design in Rawalpindi — Modular Kitchen Installation | Kovispace Interior Studio',
     description: 'Kitchen design and renovation in Rawalpindi with custom cabinetry, premium finishes, practical layouts and turnkey installation support.',
     h1: 'Kitchen design in Rawalpindi for better storage, workflow and style.',
-    intro: 'Home Studio Interiors helps Rawalpindi homeowners redesign kitchens with practical storage, durable surfaces, clean cabinetry and coordinated installation. The goal is a kitchen that looks premium and works smoothly every day.',
+    intro: 'Kovispace Interior Studio helps Rawalpindi homeowners redesign kitchens with practical storage, durable surfaces, clean cabinetry and coordinated installation. The goal is a kitchen that looks premium and works smoothly every day.',
     image: '/images/services/kitchen-live/51-1-13.webp',
     serviceName: 'Kitchen Design Rawalpindi',
     serviceType: 'Kitchen design and installation',
@@ -203,7 +203,7 @@ export const seoLandingPages: SeoLandingPage[] = [
       },
     ],
     faqs: [
-      { question: 'Do you renovate old kitchens in Rawalpindi?', answer: 'Yes. Home Studio Interiors can guide kitchen redesign and renovation projects in Rawalpindi, depending on measurements, site condition and material selection.' },
+      { question: 'Do you renovate old kitchens in Rawalpindi?', answer: 'Yes. Kovispace Interior Studio can guide kitchen redesign and renovation projects in Rawalpindi, depending on measurements, site condition and material selection.' },
       { question: 'Can I choose the cabinet finish?', answer: 'Yes. Finish options may include HPL, UV, Deco, painted looks, wood textures and other locally suitable surfaces.' },
       { question: 'How long does kitchen installation take?', answer: 'Timeline depends on site readiness, kitchen size, material availability and fabrication complexity. The team can guide you after measurements.' },
     ],
@@ -216,10 +216,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'modular-kitchen-islamabad',
     eyebrow: 'Modular kitchens',
-    title: 'Modular Kitchen Islamabad — Custom Layouts & Installation | Home Studio Interiors',
+    title: 'Modular Kitchen Islamabad — Custom Layouts & Installation | Kovispace Interior Studio',
     description: 'Modular kitchen design in Islamabad with custom cabinets, soft-close hardware, practical layouts, premium finishes and installation support.',
     h1: 'Modular kitchen design in Islamabad, planned around daily use.',
-    intro: 'A modular kitchen in Islamabad should combine efficient storage, durable materials, easy-clean surfaces and a layout that supports cooking, prep and serving. Home Studio Interiors plans custom cabinetry and finishes for both compact and luxury kitchens.',
+    intro: 'A modular kitchen in Islamabad should combine efficient storage, durable materials, easy-clean surfaces and a layout that supports cooking, prep and serving. Kovispace Interior Studio plans custom cabinetry and finishes for both compact and luxury kitchens.',
     image: '/images/services/kitchen-live/22-13.webp',
     serviceName: 'Modular Kitchen Islamabad',
     serviceType: 'Modular kitchen design',
@@ -255,7 +255,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     title: 'Wardrobe Design Islamabad — Sliding, Hinged & Walk-in Wardrobes',
     description: 'Wardrobe design in Islamabad with sliding wardrobes, hinged wardrobes, walk-in closets, smart storage, premium boards and integrated lighting.',
     h1: 'Wardrobe design in Islamabad with smart storage and refined finishes.',
-    intro: 'Home Studio Interiors designs wardrobes in Islamabad for bedrooms, dressing rooms and walk-in spaces. Each wardrobe is planned for storage habits, room size, door movement, lighting and long-term finish durability.',
+    intro: 'Kovispace Interior Studio designs wardrobes in Islamabad for bedrooms, dressing rooms and walk-in spaces. Each wardrobe is planned for storage habits, room size, door movement, lighting and long-term finish durability.',
     image: '/images/services/wardrobe-live/01-1-8.webp',
     serviceName: 'Wardrobe Design Islamabad',
     serviceType: 'Wardrobe design and installation',
@@ -276,7 +276,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     ],
     faqs: [
       { question: 'Which wardrobe type is best for small bedrooms?', answer: 'Sliding wardrobes are often best for small bedrooms because they do not need swing clearance in front of the wardrobe.' },
-      { question: 'Do you design walk-in wardrobes?', answer: 'Yes. Home Studio Interiors designs walk-in wardrobe and dressing room concepts with storage zones, lighting and finish planning.' },
+      { question: 'Do you design walk-in wardrobes?', answer: 'Yes. Kovispace Interior Studio designs walk-in wardrobe and dressing room concepts with storage zones, lighting and finish planning.' },
       { question: 'Can wardrobes include lights?', answer: 'Yes. Integrated wardrobe lighting can be planned depending on the design, electrical points and selected hardware.' },
     ],
     related: [
@@ -291,7 +291,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     title: 'Media Wall Design Islamabad — TV Walls, Panels & Storage',
     description: 'Media wall design in Islamabad with TV panels, floating storage, cable management, LED lighting, slats, niches and premium living room finishes.',
     h1: 'Media wall design in Islamabad for cinematic, clutter-free living rooms.',
-    intro: 'Home Studio Interiors designs media walls in Islamabad that combine TV placement, decorative panels, floating storage, hidden cables, ventilation and ambient lighting into one clean focal point.',
+    intro: 'Kovispace Interior Studio designs media walls in Islamabad that combine TV placement, decorative panels, floating storage, hidden cables, ventilation and ambient lighting into one clean focal point.',
     image: '/images/services/media-walls-live/01-photo-stylish-wallmounted-entertainment-1024x574.webp',
     serviceName: 'Media Wall Design Islamabad',
     serviceType: 'Media wall design and installation',
@@ -327,7 +327,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     title: 'Bathroom Vanities Islamabad — Custom Vanity Cabinets & Mirrors',
     description: 'Bathroom vanity design in Islamabad with moisture-resistant cabinetry, stone or quartz tops, integrated mirror lighting and easy-clean finishes.',
     h1: 'Bathroom vanities in Islamabad built for humid spaces and daily ease.',
-    intro: 'Home Studio Interiors designs bathroom vanities in Islamabad with moisture-resistant boards, stone or quartz tops, integrated mirror lighting and refined storage for everyday routines.',
+    intro: 'Kovispace Interior Studio designs bathroom vanities in Islamabad with moisture-resistant boards, stone or quartz tops, integrated mirror lighting and refined storage for everyday routines.',
     image: '/images/services/vanities-live/01-3-1024x574.webp',
     serviceName: 'Bathroom Vanities Islamabad',
     serviceType: 'Bathroom vanity design',
@@ -363,7 +363,7 @@ export const seoLandingPages: SeoLandingPage[] = [
     title: 'Interior Doors Islamabad — Flush, Veneer, Painted & Panel Doors',
     description: 'Interior door design in Islamabad with flush doors, grooved doors, veneer, painted finishes, durable cores and minimalist hardware.',
     h1: 'Interior doors in Islamabad that complete the look and last.',
-    intro: 'Home Studio Interiors plans interior doors in Islamabad with durable cores, clean alignment, refined finishes and hardware details that match the wider interior design.',
+    intro: 'Kovispace Interior Studio plans interior doors in Islamabad with durable cores, clean alignment, refined finishes and hardware details that match the wider interior design.',
     image: '/images/services/doors-live/01-coastal-interior-design-modern-entrance-hall-1-1024x574.webp',
     serviceName: 'Interior Doors Islamabad',
     serviceType: 'Interior door design',
@@ -396,10 +396,10 @@ export const seoLandingPages: SeoLandingPage[] = [
   {
     slug: 'home-remodeling-islamabad',
     eyebrow: 'Home remodeling Islamabad',
-    title: 'Home Remodeling Islamabad — Turnkey Interior Upgrades | Home Studio Interiors',
+    title: 'Home Remodeling Islamabad — Turnkey Interior Upgrades | Kovispace Interior Studio',
     description: 'Home remodeling in Islamabad for kitchens, wardrobes, media walls, vanities, doors and full residential interior upgrades with design and execution support.',
     h1: 'Home remodeling in Islamabad with one accountable interior team.',
-    intro: 'Home Studio Interiors supports home remodeling in Islamabad by bringing design direction, material selection, cabinetry planning and installation coordination into one clear process.',
+    intro: 'Kovispace Interior Studio supports home remodeling in Islamabad by bringing design direction, material selection, cabinetry planning and installation coordination into one clear process.',
     image: '/images/home/design-sketch-founder.webp',
     serviceName: 'Home Remodeling Islamabad',
     serviceType: 'Home remodeling and interior upgrades',
@@ -419,7 +419,7 @@ export const seoLandingPages: SeoLandingPage[] = [
       },
     ],
     faqs: [
-      { question: 'Do you remodel full homes?', answer: 'Yes. Home Studio Interiors can guide full home interior remodeling depending on scope, site readiness and material selection.' },
+      { question: 'Do you remodel full homes?', answer: 'Yes. Kovispace Interior Studio can guide full home interior remodeling depending on scope, site readiness and material selection.' },
       { question: 'Can I remodel in stages?', answer: 'Yes. Many clients begin with high-impact areas such as kitchen, wardrobes, media wall or vanities before expanding to other rooms.' },
       { question: 'How do I begin a remodeling project?', answer: 'Start by sending photos, room sizes, location and your priority areas on WhatsApp so the team can guide consultation and quotation.' },
     ],
@@ -450,7 +450,7 @@ export const guideArticles: GuideArticle[] = [
     faqs: [
       { question: 'Can I get kitchen pricing without a site visit?', answer: 'You can get an initial range on WhatsApp by sending photos and measurements, but final pricing usually requires confirmed measurements and material decisions.' },
       { question: 'Which kitchen material is best for Islamabad homes?', answer: 'The best material depends on budget, cooking style and finish preference. HPL, UV, Deco, painted looks and wood textures can all work when specified correctly.' },
-      { question: 'Does Home Studio Interiors install kitchens?', answer: 'Yes. Home Studio Interiors provides kitchen design and installation guidance for Islamabad and Rawalpindi clients.' },
+      { question: 'Does Kovispace Interior Studio install kitchens?', answer: 'Yes. Kovispace Interior Studio provides kitchen design and installation guidance for Islamabad and Rawalpindi clients.' },
     ],
     related: [
       { label: 'Kitchen Design Islamabad', href: '/kitchen-design-islamabad' },
@@ -637,7 +637,7 @@ export const guideArticles: GuideArticle[] = [
     related: [
       { label: 'Interior Designers Islamabad', href: '/interior-designers-islamabad' },
       { label: 'Home Remodeling Islamabad', href: '/home-remodeling-islamabad' },
-      { label: 'Contact Home Studio', href: '/contact' },
+      { label: 'Contact Kovi', href: '/contact' },
     ],
   },
   {
@@ -772,7 +772,7 @@ export const guideArticles: GuideArticle[] = [
     faqs: [
       { question: 'What makes an interior look luxury?', answer: 'A luxury interior usually feels balanced because proportions, materials, lighting, storage and finishing details are planned together. It is not only about using expensive materials.' },
       { question: 'Which rooms should I design first?', answer: 'Kitchens, wardrobes, media walls, vanities and doors often create the strongest daily impact and are practical starting points for many Islamabad homes.' },
-      { question: 'Can I get interior design guidance on WhatsApp?', answer: `Yes. Home Studio Interiors can begin with photos, measurements, location and requirements shared on WhatsApp at ${site.phone}.` },
+      { question: 'Can I get interior design guidance on WhatsApp?', answer: `Yes. Kovispace Interior Studio can begin with photos, measurements, location and requirements shared on WhatsApp at ${site.phone}.` },
     ],
     related: [
       { label: 'Interior Designers Islamabad', href: '/interior-designers-islamabad' },
@@ -928,7 +928,7 @@ export const guideArticles: GuideArticle[] = [
       { title: 'Build a coordinated material palette', text: 'A foyer can connect the home’s architecture to its interior style. Choose a small number of complementary finishes for flooring, stair surfaces, handrail, wall treatment and ceiling details. A feature material is most effective when the surrounding surfaces give it room to read.', points: ['Select one focal finish', 'Coordinate floor and stair tones', 'Balance timber, stone-look and painted surfaces', 'Request samples under the home’s actual lighting'] },
       { title: 'Layer lighting for welcome and visibility', text: 'Use general lighting for safe movement and carefully placed accent lighting to give the entrance depth. Pendant or chandelier scale should suit the ceiling height and remain clear of circulation. Avoid glare and shadows that make stair edges difficult to see.', points: ['Combine ambient and accent lighting', 'Light landings and transitions clearly', 'Check fixture scale and clearance', 'Choose warm, comfortable light for the arrival area'] },
       { title: 'Keep the foyer useful, not crowded', text: 'A foyer may need a place for keys, shoes or a brief pause, but storage should not dominate the first view. Slim cabinetry, a console or a restrained display can work when planned around the door swing and walking width.', points: ['List the items that need a home', 'Check door swing and access', 'Prefer closed storage for everyday clutter', 'Keep decor limited to a few intentional pieces'] },
-      { title: 'Use project references thoughtfully', text: 'The Home Studio Interiors DHA Phase 1 project reel shows one double-height foyer and staircase direction with warm ceiling detail, layered lighting and a stone-look feature wall. Treat it as a project reference: the right proportions, finishes and lighting for another home depend on its own measurements, architecture and brief.', points: ['Review the DHA Phase 1 foyer and staircase case study', 'Share photos and approximate measurements', 'Discuss material and lighting preferences', 'Confirm the actual scope before requesting a quotation'] },
+      { title: 'Use project references thoughtfully', text: 'The Kovispace Interior Studio DHA Phase 1 project reel shows one double-height foyer and staircase direction with warm ceiling detail, layered lighting and a stone-look feature wall. Treat it as a project reference: the right proportions, finishes and lighting for another home depend on its own measurements, architecture and brief.', points: ['Review the DHA Phase 1 foyer and staircase case study', 'Share photos and approximate measurements', 'Discuss material and lighting preferences', 'Confirm the actual scope before requesting a quotation'] },
     ],
     faqs: [
       { question: 'What should be planned first in a foyer and staircase?', answer: 'Plan circulation, stair geometry, door movement and clearances first. Then coordinate lighting, handrail, flooring, wall finishes and storage around the measured space.' },
@@ -948,10 +948,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-dha-islamabad',
     area: 'DHA Islamabad',
-    title: 'Interior Design for DHA Islamabad Homes | Home Studio Interiors',
+    title: 'Interior Design for DHA Islamabad Homes | Kovispace Interior Studio',
     description: 'Interior design and turnkey execution support for DHA Islamabad homes, including kitchens, wardrobes, media walls, vanities, doors and remodeling.',
     h1: 'Interior design for DHA Islamabad homes.',
-    intro: 'Home Studio Interiors supports homeowners in DHA Islamabad with measured design planning, custom cabinetry, kitchen upgrades, wardrobes, media walls, vanities, doors and remodeling guidance. This page is for service-area relevance only; consultations and site scope are confirmed directly with the team.',
+    intro: 'Kovispace Interior Studio supports homeowners in DHA Islamabad with measured design planning, custom cabinetry, kitchen upgrades, wardrobes, media walls, vanities, doors and remodeling guidance. This page is for service-area relevance only; consultations and site scope are confirmed directly with the team.',
     image: '/images/hero/living.webp',
     homeTypes: ['New-build homes', 'Portion upgrades', 'Kitchen and wardrobe packages', 'Living room feature walls'],
     serviceFit: ['Modern kitchens', 'Walk-in and sliding wardrobes', 'Media walls with cable planning', 'Vanities and interior doors'],
@@ -960,7 +960,7 @@ export const areaPages: AreaPage[] = [
       { title: 'How to begin', text: 'Share photos, approximate room sizes and design references on WhatsApp. The team can guide whether the scope needs a site visit, 3D direction or a quotation discussion.', points: ['Send photos and measurements', 'Define priority rooms', 'Choose material direction', 'Confirm execution sequence'] },
     ],
     faqs: [
-      { question: 'Do you serve DHA Islamabad?', answer: 'Yes. Home Studio Interiors serves Islamabad and Rawalpindi areas, including DHA Islamabad, subject to project scope and schedule.' },
+      { question: 'Do you serve DHA Islamabad?', answer: 'Yes. Kovispace Interior Studio serves Islamabad and Rawalpindi areas, including DHA Islamabad, subject to project scope and schedule.' },
       { question: 'Can I start with only a kitchen or wardrobe?', answer: 'Yes. Single-service projects such as kitchens, wardrobes, media walls, vanities and doors can be discussed separately.' },
     ],
     related: [
@@ -972,10 +972,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-bahria-town-islamabad',
     area: 'Bahria Town Islamabad',
-    title: 'Interior Design for Bahria Town Islamabad Homes | Home Studio Interiors',
+    title: 'Interior Design for Bahria Town Islamabad Homes | Kovispace Interior Studio',
     description: 'Residential interior design support for Bahria Town Islamabad homes, with custom kitchens, wardrobes, media walls, vanities and interior doors.',
     h1: 'Interior design for Bahria Town Islamabad homes.',
-    intro: 'For Bahria Town Islamabad homes, Home Studio Interiors focuses on practical luxury: kitchens that work daily, wardrobes with useful internals, media walls with clean cable management, and finishes that feel cohesive across rooms.',
+    intro: 'For Bahria Town Islamabad homes, Kovispace Interior Studio focuses on practical luxury: kitchens that work daily, wardrobes with useful internals, media walls with clean cable management, and finishes that feel cohesive across rooms.',
     image: '/images/hero/kitchen.webp',
     homeTypes: ['Family homes', 'New home interiors', 'Room-by-room upgrades', 'Turnkey fit-out scopes'],
     serviceFit: ['Kitchen design and installation', 'Wardrobe planning', 'Media wall design', 'Vanities and doors'],
@@ -996,10 +996,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-gulberg-greens-islamabad',
     area: 'Gulberg Greens Islamabad',
-    title: 'Interior Design for Gulberg Greens Islamabad Homes | Home Studio Interiors',
+    title: 'Interior Design for Gulberg Greens Islamabad Homes | Kovispace Interior Studio',
     description: 'Interior design services for Gulberg Greens Islamabad homes, including kitchens, wardrobes, media walls, bathroom vanities and interior doors.',
     h1: 'Interior design for Gulberg Greens Islamabad homes.',
-    intro: 'Home Studio Interiors helps Gulberg Greens homeowners plan interiors that feel warm, modern and functional, with emphasis on cabinetry, storage, lighting and material selection.',
+    intro: 'Kovispace Interior Studio helps Gulberg Greens homeowners plan interiors that feel warm, modern and functional, with emphasis on cabinetry, storage, lighting and material selection.',
     image: '/images/hero/statement.webp',
     homeTypes: ['New villas', 'Kitchen upgrades', 'Bedroom wardrobe planning', 'Living room media walls'],
     serviceFit: ['Full interior direction', 'Custom cabinetry', 'Material selection', 'Turnkey installation planning'],
@@ -1008,7 +1008,7 @@ export const areaPages: AreaPage[] = [
       { title: 'A practical design route', text: 'The project should move from room priorities to measurements, material direction, quotation and execution sequencing.', points: ['Prioritize rooms', 'Review references', 'Confirm finishes', 'Plan installation phases'] },
     ],
     faqs: [
-      { question: 'Do you work in Gulberg Greens Islamabad?', answer: 'Yes. Gulberg Greens is within the Islamabad/Rawalpindi service market served by Home Studio Interiors, subject to scope and availability.' },
+      { question: 'Do you work in Gulberg Greens Islamabad?', answer: 'Yes. Gulberg Greens is within the Islamabad/Rawalpindi service market served by Kovispace Interior Studio, subject to scope and availability.' },
       { question: 'Can you help with a full villa interior?', answer: 'Full home scopes can be discussed after understanding room priorities, measurements, materials and timeline.' },
     ],
     related: [
@@ -1020,10 +1020,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-e-11-islamabad',
     area: 'E-11 Islamabad',
-    title: 'Interior Design for E-11 Islamabad Apartments & Homes | Home Studio Interiors',
+    title: 'Interior Design for E-11 Islamabad Apartments & Homes | Kovispace Interior Studio',
     description: 'Interior design support for E-11 Islamabad apartments and homes, including small kitchens, wardrobes, media walls, vanities and remodeling.',
     h1: 'Interior design for E-11 Islamabad apartments and homes.',
-    intro: 'For E-11 apartments and homes, Home Studio Interiors prioritizes smart storage, compact kitchen planning, clean media walls and refined finishes that make daily life easier without visual clutter.',
+    intro: 'For E-11 apartments and homes, Kovispace Interior Studio prioritizes smart storage, compact kitchen planning, clean media walls and refined finishes that make daily life easier without visual clutter.',
     image: '/images/hero/media.webp',
     homeTypes: ['Apartments', 'Compact kitchens', 'Bedroom storage upgrades', 'Living room feature walls'],
     serviceFit: ['Small kitchen planning', 'Sliding wardrobes', 'TV/media walls', 'Bathroom vanities'],
@@ -1044,10 +1044,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-bahria-town-rawalpindi',
     area: 'Bahria Town Rawalpindi',
-    title: 'Interior Design for Bahria Town Rawalpindi Homes | Home Studio Interiors',
+    title: 'Interior Design for Bahria Town Rawalpindi Homes | Kovispace Interior Studio',
     description: 'Interior design and fit-out support for Bahria Town Rawalpindi homes, including kitchens, wardrobes, media walls, vanities and doors.',
     h1: 'Interior design for Bahria Town Rawalpindi homes.',
-    intro: 'Home Studio Interiors serves the Rawalpindi/Islamabad metro market with residential interior design and fit-out support for kitchens, wardrobes, vanities, doors, media walls and remodeling scopes.',
+    intro: 'Kovispace Interior Studio serves the Rawalpindi/Islamabad metro market with residential interior design and fit-out support for kitchens, wardrobes, vanities, doors, media walls and remodeling scopes.',
     image: '/images/hero/kitchen2.webp',
     homeTypes: ['Family homes', 'Renovation scopes', 'Kitchen and storage upgrades', 'Living room enhancements'],
     serviceFit: ['Kitchen redesign', 'Wardrobes and walk-ins', 'Media walls', 'Doors and vanities'],
@@ -1056,7 +1056,7 @@ export const areaPages: AreaPage[] = [
       { title: 'Useful first step', text: 'Share your location, photos and priority rooms on WhatsApp so the scope can be understood before scheduling deeper consultation.', points: ['Room photos', 'Priority list', 'Style references', 'Budget direction'] },
     ],
     faqs: [
-      { question: 'Do you serve Bahria Town Rawalpindi?', answer: 'Yes. Home Studio Interiors serves Rawalpindi and Islamabad areas, including Bahria Town Rawalpindi, depending on project scope and availability.' },
+      { question: 'Do you serve Bahria Town Rawalpindi?', answer: 'Yes. Kovispace Interior Studio serves Rawalpindi and Islamabad areas, including Bahria Town Rawalpindi, depending on project scope and availability.' },
       { question: 'Can Rawalpindi clients get a WhatsApp quote?', answer: 'Yes. Initial guidance can begin on WhatsApp with photos, measurements and project details.' },
     ],
     related: [
@@ -1068,10 +1068,10 @@ export const areaPages: AreaPage[] = [
   {
     slug: 'interior-design-dha-rawalpindi',
     area: 'DHA Rawalpindi',
-    title: 'Interior Design for DHA Rawalpindi Homes | Home Studio Interiors',
+    title: 'Interior Design for DHA Rawalpindi Homes | Kovispace Interior Studio',
     description: 'Residential interior design support for DHA Rawalpindi homes, including custom kitchens, wardrobes, vanities, media walls, doors and remodeling.',
     h1: 'Interior design for DHA Rawalpindi homes.',
-    intro: 'For DHA Rawalpindi homeowners, Home Studio Interiors provides design and execution guidance for the rooms that most affect daily living: kitchens, wardrobes, vanities, media walls, doors and full-home remodeling scopes.',
+    intro: 'For DHA Rawalpindi homeowners, Kovispace Interior Studio provides design and execution guidance for the rooms that most affect daily living: kitchens, wardrobes, vanities, media walls, doors and full-home remodeling scopes.',
     image: '/images/hero/vanity.webp',
     homeTypes: ['New home fit-outs', 'Remodeling projects', 'Kitchen and wardrobe packages', 'Bedroom and living upgrades'],
     serviceFit: ['Custom kitchen planning', 'Wardrobe internals', 'Vanity cabinetry', 'Interior doors and media walls'],
@@ -1080,7 +1080,7 @@ export const areaPages: AreaPage[] = [
       { title: 'Consultation inputs', text: 'The best first message includes photos, rough dimensions, area, required services and the design look you prefer.', points: ['Area and home type', 'Photos and measurements', 'Priority services', 'Style references'] },
     ],
     faqs: [
-      { question: 'Do you provide interior services in DHA Rawalpindi?', answer: 'Yes. DHA Rawalpindi is part of the Rawalpindi/Islamabad service market served by Home Studio Interiors, depending on schedule and scope.' },
+      { question: 'Do you provide interior services in DHA Rawalpindi?', answer: 'Yes. DHA Rawalpindi is part of the Rawalpindi/Islamabad service market served by Kovispace Interior Studio, depending on schedule and scope.' },
       { question: 'Can you coordinate kitchens and wardrobes in one design language?', answer: 'Yes. Coordinating cabinetry finishes across rooms can make the whole home feel more cohesive.' },
     ],
     related: [
@@ -1097,8 +1097,8 @@ export const aiVisibilityLinks = [
   ...guideArticles.map((article) => ({ title: article.title, url: `${site.url}/blog/${article.slug}` })),
   ...services.map((service) => ({ title: `${service.title} service`, url: `${site.url}/services/${service.slug}` })),
   { title: 'Service areas', url: `${site.url}/service-areas` },
-  { title: 'How Home Studio Interiors works', url: `${site.url}/process` },
-  { title: 'Home Studio Interiors FAQ', url: `${site.url}/faq` },
+  { title: 'How Kovispace Interior Studio works', url: `${site.url}/process` },
+  { title: 'Kovispace Interior Studio FAQ', url: `${site.url}/faq` },
 ];
 
-export const whatsappLeadHref = `${whatsappHref}?text=${encodeURIComponent('Hi Home Studio Interiors, I found you on Google and want a design consultation for my home in Islamabad/Rawalpindi.')}`;
+export const whatsappLeadHref = `${whatsappHref}?text=${encodeURIComponent('Hi Kovispace Interior Studio, I found you on Google and want a design consultation for my home in Islamabad/Rawalpindi.')}`;

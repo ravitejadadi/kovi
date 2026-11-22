@@ -1,7 +1,7 @@
-# Codex Brief — Extract ALL content & images from homestudiointeriors.pk
+# Codex Brief — Extract ALL content & images from kovispace.com
 
 ## Your mission
-Connect to the live WordPress site **homestudiointeriors.pk** over SSH and extract a **complete, structured dump of every page's content and every image**, saved locally so it can be reused to build/populate a new static site. Do NOT modify the live site — read only.
+Connect to the live WordPress site **kovispace.com** over SSH and extract a **complete, structured dump of every page's content and every image**, saved locally so it can be reused to build/populate a new static site. Do NOT modify the live site — read only.
 
 ## Project context (why)
 There is a from-scratch **Astro + Tailwind v4** static rebuild of this site at `/Users/mac/HS WEBSITE` (luxury DARK theme, brand orange `#F27025`, Playfair Display + Inter, dark hero, tabbed "What We Do", etc.). It currently uses a partial set of real images/content. Your job is to give it the **full** content + image library so nothing is missing. Output goes into `/Users/mac/HS WEBSITE/_extraction/`.
@@ -20,9 +20,9 @@ Pass: Crea8iv@2026
 ```
 Non-interactive: `sshpass -e ssh -p 65002 -o StrictHostKeyChecking=no u700603111@145.79.28.194 '<cmd>'` with `SSHPASS` env var set. (`brew install sshpass` if missing.)
 
-**WordPress root:** `/home/u700603111/domains/homestudiointeriors.pk/public_html`
-**WP admin (only if needed):** user `crea8ivmedia` / pass `homestudio@2026`
-**WP-CLI** is available on the server. **Site URL:** https://homestudiointeriors.pk
+**WordPress root:** `/home/u700603111/domains/kovispace.com/public_html`
+**WP admin (only if needed):** user `crea8ivmedia` / pass `kovi@2026`
+**WP-CLI** is available on the server. **Site URL:** https://kovispace.com
 
 ---
 
@@ -41,7 +41,7 @@ Non-interactive: `sshpass -e ssh -p 65002 -o StrictHostKeyChecking=no u700603111
 | Blog | `/blog/` | 0 posts currently |
 | Testimonials | `/testimonials/` | |
 | Careers | `/careers/` | |
-| Contact | `/contact-2/` | info@homestudiointeriors.pk · 0339 2001959 |
+| Contact | `/contact-2/` | info@kovispace.com · 0339 2001959 |
 | Privacy | `/privacy-policy/` · Terms `/terms-condition/` | |
 
 Nav (Main Menu): Home, About, Services ▸ (Kitchen, Wardrobe, Vanities, Media Walls, Doors), Blog, Contact.
@@ -52,10 +52,10 @@ Nav (Main Menu): Home, About, Services ▸ (Kitchen, Wardrobe, Vanities, Media W
 For **every** published page/post, capture: title, meta description, canonical, H1/H2/H3 in order, all paragraphs, list items, button/CTA labels, and the ordered section hierarchy.
 
 Best method = fetch the **rendered HTML** and strip chrome (Elementor renders copy into HTML; `post_content` is often empty). Two options:
-1. **From the server:** `curl -s https://homestudiointeriors.pk/<slug>/` per page, then parse.
+1. **From the server:** `curl -s https://kovispace.com/<slug>/` per page, then parse.
 2. **WP-CLI for structure:** `wp --path=<root> --skip-plugins --skip-themes post list --post_type=page --post_status=publish --fields=ID,post_name,post_title --format=csv` and `wp ... menu item list "Main Menu"`.
 
-Also grab site identity: `wp option get blogname`, `blogdescription`, and business NAP from the contact page (email `info@homestudiointeriors.pk`, phone `0339 2001959`, "Islamabad Capital Territory", rating 4.95/260+).
+Also grab site identity: `wp option get blogname`, `blogdescription`, and business NAP from the contact page (email `info@kovispace.com`, phone `0339 2001959`, "DeepthiSree Nagar, Madinaguda, Hyderabad, Pin 500 049", rating 4.95/260+).
 
 Save each page as `_extraction/out/<slug>.json` and `<slug>.md` with the fields above, plus `_extraction/out/_index.json` (ordered section headings per page).
 

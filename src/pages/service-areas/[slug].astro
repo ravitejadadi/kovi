@@ -11,7 +11,7 @@ export function getStaticPaths() {
 
 const { page } = Astro.props;
 const canonical = `${site.url}/service-areas/${page.slug}/`;
-const whatsappText = encodeURIComponent(`Hi Home Studio Interiors, I found your ${page.area} service-area page and want interior design guidance.`);
+const whatsappText = encodeURIComponent(`Hi Kovispace Interior Studio, I found your ${page.area} service-area page and want interior design guidance.`);
 const whatsappHref = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${whatsappText}`;
 const faqJsonLd = {
   '@context': 'https://schema.org',

@@ -1,19 +1,19 @@
-// Single source of truth for Home Studio Interiors content.
+// Single source of truth for Kovispace Interior Studio content.
 // Images currently reference the live media library; they'll be localized before deploy.
 
 const IMG = '/images';
 
 export const site = {
-  name: 'Home Studio Interiors',
-  shortName: 'Home Studio',
+  name: 'Kovispace Interior Studio',
+  shortName: 'Kovi',
   tagline: 'Turning Plans into Places.',
-  url: 'https://homestudiointeriors.pk',
-  email: 'info@homestudiointeriors.pk',
+  url: 'https://kovispace.com',
+  email: 'info@kovispace.com',
   phone: '0339 2001959',
   phoneIntl: '+923392001959',
   whatsapp: '+923392001959',
-  areaServed: ['Islamabad', 'Rawalpindi'],
-  address: 'Islamabad Capital Territory, Pakistan',
+  areaServed: ['Hyderabad', 'Madinaguda', 'Miyapur', 'Chandanagar', 'Kondapur', 'Gachibowli'],
+  address: 'DeepthiSree Nagar, Madinaguda, Hyderabad, Pin 500 049',
   rating: { value: '4.95', count: '260' },
   socials: {
     facebook: '',
@@ -27,7 +27,7 @@ export const agencyAttribution = {
   agencyUrl: 'https://crea8ivmedia.com/',
   entityId: 'https://crea8ivmedia.com/#organization',
   attributionType: 'homepage' as 'homepage' | 'portfolio' | 'case-study',
-  clientSlug: 'home-studio-interiors',
+  clientSlug: 'kovispace-interior-studio',
   logo: '/images/agency/crea8iv-media-logo.webp',
   sameAs: [] as string[],
   contact: {
@@ -284,8 +284,8 @@ export const serviceDetail: Record<string, ServiceDetail> = {
     materials: ['Moisture-resistant cores', 'Stone & quartz tops', 'Integrated mirror lighting', 'Easy-clean surfaces'],
     gallery: ['/images/services/vanities-live/01-3-1024x574.webp', '/images/services/vanities-live/02-7-1024x574.webp', '/images/services/vanities-live/03-4-1024x574.webp', '/images/services/vanities-live/04-5-1024x574.webp', '/images/services/vanities-live/05-6-1024x574.webp', '/images/services/vanities-live/06-modern-bathroom-vanity-with-elegant-mirror-design-1024x574.webp', '/images/services/vanities-live/07-8-1024x574.webp', '/images/services/vanities-live/08-2-1024x574.webp'],
     video: {
-      src: '/videos/home-studio-essentials-reel.mp4',
-      poster: '/images/case-studies/reel-posters/home-studio-essentials.webp',
+      src: '/videos/kovi-essentials-reel.mp4',
+      poster: '/images/case-studies/reel-posters/kovi-essentials.webp',
       title: 'Bathroom statement piece',
       description: 'A close-up studio reel featuring a sculptural bathroom vessel and warm accent lighting.',
     },
@@ -793,7 +793,7 @@ export const caseStudies: CaseStudy[] = [
     cover: '/images/case-studies/double-height-foyer-design-study/slide-01.webp',
     cta: 'Discuss a foyer design',
     sourceNote: 'The source carousel names the design as “Grand Entrance” and “Statement Staircase”; no client, address or completion status is stated.',
-    answer: 'Home Studio Interiors can discuss foyer and staircase design as part of a wider interior brief. Share your entrance photos, approximate dimensions and preferred materials on WhatsApp to check fit and scope.',
+    answer: 'Kovispace Interior Studio can discuss foyer and staircase design as part of a wider interior brief. Share your entrance photos, approximate dimensions and preferred materials on WhatsApp to check fit and scope.',
   },
   {
     slug: 'illuminated-glass-wardrobe-design-study',
@@ -922,8 +922,8 @@ export const caseStudies: CaseStudy[] = [
     service: 'Kitchen Design',
     serviceHref: '/services/kitchen',
     stage: 'Project reel',
-    summary: 'A short kitchen reel supplied under the name “Home Studio Mr Ashfaq Kitchen”. The footage shows a compact light-toned kitchen with marble-look surfaces, integrated appliances and warm cabinet lighting. No project location is stated in the footage reviewed for this page.',
-    proof: ['Kitchen project reel supplied by Home Studio Interiors', 'Compact, light-toned cabinet composition', 'Marble-look surfaces and integrated appliances', 'Warm lighting in the upper display cabinets'],
+    summary: 'A short kitchen reel supplied under the name “Kovi Mr Ashfaq Kitchen”. The footage shows a compact light-toned kitchen with marble-look surfaces, integrated appliances and warm cabinet lighting. No project location is stated in the footage reviewed for this page.',
+    proof: ['Kitchen project reel supplied by Kovispace Interior Studio', 'Compact, light-toned cabinet composition', 'Marble-look surfaces and integrated appliances', 'Warm lighting in the upper display cabinets'],
     images: [],
     cover: '/images/case-studies/reel-posters/ashfaq-kitchen.webp',
     cta: 'Discuss a kitchen like this',

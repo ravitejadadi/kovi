@@ -6,8 +6,8 @@ import Icon from '../components/Icon.astro';
 import { caseStudies, projectPortfolio, galleryImages, heroImage, site } from '../data/site';
 const categories = ['All', ...Array.from(new Set(projectPortfolio.map((p) => p.service)))];
 ---
-<Base title="Projects — Interior Design Portfolio in Islamabad & Rawalpindi | Home Studio Interiors"
-  description="Luxury interior design portfolio across Islamabad & Rawalpindi — kitchens, wardrobes, vanities, media walls and doors by Home Studio Interiors.">
+<Base title="Projects — Interior Design Portfolio in Islamabad & Rawalpindi | Kovispace Interior Studio"
+  description="Luxury interior design portfolio across Islamabad & Rawalpindi — kitchens, wardrobes, vanities, media walls and doors by Kovispace Interior Studio.">
   <PageHero eyebrow="Selected work" title="A portfolio of crafted interiors."
     subtitle="Explore real design directions from kitchens, wardrobes, doors, vanities and media walls — curated as a premium lookbook for your next home."
     image={heroImage} />
@@ -22,7 +22,7 @@ const categories = ['All', ...Array.from(new Set(projectPortfolio.map((p) => p.s
         </p>
       </div>
       <div class="lg:col-span-4 lg:text-right" data-reveal>
-        <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hi Home Studio, I reviewed your project case studies and want to discuss a similar interior project.')}`} class="btn btn-primary">Discuss a similar project</a>
+        <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Hi Kovi, I reviewed your project case studies and want to discuss a similar interior project.')}`} class="btn btn-primary">Discuss a similar project</a>
       </div>
     </div>
 
@@ -75,7 +75,7 @@ const categories = ['All', ...Array.from(new Set(projectPortfolio.map((p) => p.s
           <div class="p-5">
             <p class="text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-accent">{p.service}</p>
             <h3 class="mt-2 font-display text-2xl">{p.title}</h3>
-            <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Home Studio, I like the ${p.title} design. Please guide me.`)}`} class="link-underline mt-4 inline-block text-xs uppercase tracking-[0.16em] text-white/65 hover:text-accent">Book this style →</a>
+            <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Kovi, I like the ${p.title} design. Please guide me.`)}`} class="link-underline mt-4 inline-block text-xs uppercase tracking-[0.16em] text-white/65 hover:text-accent">Book this style →</a>
           </div>
         </article>
       ))}
@@ -89,7 +89,7 @@ const categories = ['All', ...Array.from(new Set(projectPortfolio.map((p) => p.s
       <div class="mt-12 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
         {galleryImages.map((img, i) => (
           <button type="button" data-lightbox={img} data-lightbox-title={`Interior design detail ${String(i + 1).padStart(2, '0')}`} class="card-hover image-frame block break-inside-avoid rounded-[1.2rem]" data-reveal="img">
-            <img src={img} alt="Interior design detail by Home Studio Interiors" loading="lazy" class="w-full object-cover" />
+            <img src={img} alt="Interior design detail by Kovispace Interior Studio" loading="lazy" class="w-full object-cover" />
           </button>
         ))}
       </div>

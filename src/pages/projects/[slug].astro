@@ -13,7 +13,7 @@ export function getStaticPaths() {
 
 const { study } = Astro.props;
 const pageUrl = `${site.url}/projects/${study.slug}`;
-const whatsappText = `Hi Home Studio, I reviewed the ${study.title} case study and want to discuss a similar ${study.service} project.`;
+const whatsappText = `Hi Kovi, I reviewed the ${study.title} case study and want to discuss a similar ${study.service} project.`;
 const locationLabel = study.location || 'Not specified in supplied material';
 const pageDescriptor = study.stage || 'Project case study';
 const relatedStudies = caseStudies
@@ -61,7 +61,7 @@ const breadcrumbJsonLd = {
 ---
 
 <Base
-  title={`${study.title} | Home Studio Interiors`}
+  title={`${study.title} | Kovispace Interior Studio`}
   description={study.summary}
   image={study.cover}
   path={`/projects/${study.slug}/`}
@@ -171,9 +171,9 @@ const breadcrumbJsonLd = {
     <div class="container-page grid gap-8 lg:grid-cols-12 lg:items-center">
       <div class="lg:col-span-8">
         <p class="section-kicker" data-reveal>Answer for visitors</p>
-          <h2 class="display-md mt-5 text-ink" data-reveal>{study.stage === 'Design study' || study.stage === 'Design concept' ? 'How can this design direction be adapted?' : study.stage === 'In progress' || study.stage === 'Installation in progress' ? 'What does this project update show?' : 'Can Home Studio Interiors handle similar projects?'}</h2>
+          <h2 class="display-md mt-5 text-ink" data-reveal>{study.stage === 'Design study' || study.stage === 'Design concept' ? 'How can this design direction be adapted?' : study.stage === 'In progress' || study.stage === 'Installation in progress' ? 'What does this project update show?' : 'Can Kovispace Interior Studio handle similar projects?'}</h2>
         <p class="mt-6 max-w-3xl text-base leading-8 text-black/70" data-reveal>
-          {study.answer || `Home Studio Interiors works with homeowners across Islamabad and Rawalpindi on kitchens, wardrobes, vanities, media walls, doors and full-home remodeling. Share this project page on WhatsApp to discuss whether a similar brief fits your space and requirements.`}
+          {study.answer || `Kovispace Interior Studio works with homeowners across Islamabad and Rawalpindi on kitchens, wardrobes, vanities, media walls, doors and full-home remodeling. Share this project page on WhatsApp to discuss whether a similar brief fits your space and requirements.`}
         </p>
       </div>
       <div class="lg:col-span-4 lg:text-right" data-reveal>

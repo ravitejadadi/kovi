@@ -41,7 +41,7 @@ const jsonLd = {
   description: service.excerpt,
 };
 ---
-<Base title={`${service.title} Design in Islamabad — ${service.tagline} | Home Studio Interiors`}
+<Base title={`${service.title} Design in Islamabad — ${service.tagline} | Kovispace Interior Studio`}
   description={service.excerpt} image={pageHeroImage} jsonLd={jsonLd}>
   <PageHero eyebrow={`Services · ${service.title}`} title={service.tagline} subtitle={service.excerpt} image={pageHeroImage} />
 
@@ -76,7 +76,7 @@ const jsonLd = {
             <h2 class="display-md mt-4 max-w-3xl" data-reveal>Every {serviceStyleLabel} style from the original collection, redesigned for a richer browsing experience.</h2>
           </div>
           <p class="max-w-md text-sm text-muted lg:col-span-5 lg:justify-self-end" data-reveal>
-            Names, descriptions and image groups are drawn from the live {serviceStyleLabel} page, then presented in a darker, more editorial Home Studio layout.
+            Names, descriptions and image groups are drawn from the live {serviceStyleLabel} page, then presented in a darker, more editorial Kovi layout.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ const jsonLd = {
                   {group.images.map((item, i) => (
                     <article class={`group overflow-hidden rounded-[1.4rem] border border-line bg-bone/35 transition-all duration-500 hover:-translate-y-1 hover:border-accent/45 ${i === 0 ? 'sm:col-span-2' : ''}`}>
                       <button type="button" class="card-hover image-frame block w-full border-0 text-left" data-reveal="img" data-lightbox={item.images[0]} data-lightbox-title={`${item.name} ${service.title} design`}>
-                        <img src={item.images[0]} alt={`${item.name} ${group.label.toLowerCase()} by Home Studio Interiors`} loading="lazy"
+                        <img src={item.images[0]} alt={`${item.name} ${group.label.toLowerCase()} by Kovispace Interior Studio`} loading="lazy"
                           class={`w-full object-cover ${i === 0 ? 'aspect-[16/9]' : 'aspect-[4/3]'}`} />
                         <div class="card-hover-label pointer-events-none absolute inset-0 flex items-end justify-between p-5">
                           <span><span class="number-mark block">{String(i + 1).padStart(2, '0')}</span><span class="mt-1 block font-display text-xl text-white">{item.name}</span></span>
@@ -137,7 +137,7 @@ const jsonLd = {
                             ))}
                           </div>
                         )}
-                        <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Home Studio, I am interested in the ${item.name} ${serviceStyleLabel} design.`)}`} class="btn btn-ghost mt-5 w-full justify-center">Book this design <Icon name="arrow" size={14} class="arrow" /></a>
+                        <a href={`https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Kovi, I am interested in the ${item.name} ${serviceStyleLabel} design.`)}`} class="btn btn-ghost mt-5 w-full justify-center">Book this design <Icon name="arrow" size={14} class="arrow" /></a>
                       </div>
                     </article>
                   ))}
@@ -157,8 +157,8 @@ const jsonLd = {
         </div>
         <div class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-12">
           {detail.gallery.map((g, i) => (
-            <button type="button" class={`card-hover group image-frame text-left ${i === 0 ? 'sm:col-span-2 lg:col-span-7 lg:row-span-2' : 'lg:col-span-5'}`} data-reveal="img" data-lightbox={g} data-lightbox-title={`${service.title} project by Home Studio Interiors`}>
-              <img src={g} alt={`${service.title} project by Home Studio Interiors`} loading="lazy"
+            <button type="button" class={`card-hover group image-frame text-left ${i === 0 ? 'sm:col-span-2 lg:col-span-7 lg:row-span-2' : 'lg:col-span-5'}`} data-reveal="img" data-lightbox={g} data-lightbox-title={`${service.title} project by Kovispace Interior Studio`}>
+              <img src={g} alt={`${service.title} project by Kovispace Interior Studio`} loading="lazy"
                 class={`w-full object-cover ${i === 0 ? 'aspect-[4/3] h-full lg:aspect-auto lg:min-h-[38rem]' : 'aspect-[4/3]'}`} />
               <div class="card-hover-label pointer-events-none absolute inset-0 flex items-end justify-between p-5">
                 <span><span class="number-mark block">{String(i + 1).padStart(2, '0')}</span><span class="mt-1 block font-display text-xl text-white">{collection[i] ?? service.title}</span></span>

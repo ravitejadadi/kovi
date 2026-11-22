@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // Static output — builds to plain HTML/CSS/JS deployable on Hostinger (no Node runtime).
 export default defineConfig({
-  site: 'https://homestudiointeriors.pk',
+  site: 'https://kovispace.com',
   trailingSlash: 'ignore',
   integrations: [sitemap()],
   vite: {

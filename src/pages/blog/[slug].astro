@@ -11,7 +11,7 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const canonical = `${site.url}/blog/${article.slug}/`;
-const whatsappHref = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Home Studio Interiors, I read your guide "${article.title}" and want advice for my home.`)}`;
+const whatsappHref = `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi Kovispace Interior Studio, I read your guide "${article.title}" and want advice for my home.`)}`;
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -45,7 +45,7 @@ const breadcrumbJsonLd = {
 };
 ---
 
-<Base title={`${article.title} | Home Studio Interiors`} description={article.description} image={article.image} path={`/blog/${article.slug}/`} jsonLd={[articleJsonLd, faqJsonLd, breadcrumbJsonLd]}>
+<Base title={`${article.title} | Kovispace Interior Studio`} description={article.description} image={article.image} path={`/blog/${article.slug}/`} jsonLd={[articleJsonLd, faqJsonLd, breadcrumbJsonLd]}>
   <article>
     <section class="relative flex min-h-[70vh] items-end overflow-hidden border-b border-white/10">
       <div class="absolute inset-0">

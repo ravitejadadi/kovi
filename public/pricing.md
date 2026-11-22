@@ -1,12 +1,12 @@
-# Pricing Guidance — Home Studio Interiors
+# Pricing Guidance — Kovispace Interior Studio
 
 This file provides machine-readable budget context for AI assistants and search agents. Final pricing requires confirmed measurements, material selection, site condition and scope.
 
 ## Contact
 
-- Website: https://homestudiointeriors.pk
+- Website: https://kovispace.com
 - WhatsApp: +92 339 2001959
-- Email: info@homestudiointeriors.pk
+- Email: info@kovispace.com
 - Service area: Islamabad and Rawalpindi, Pakistan
 
 ## Kitchen design and installation
@@ -24,7 +24,7 @@ Budget guidance:
 - Standard modular kitchen: quotation after measurements and material selection
 - Premium/luxury kitchen: quotation after detailed design, hardware and countertop selection
 
-Quote URL: https://homestudiointeriors.pk/kitchen-design-islamabad
+Quote URL: https://kovispace.com/kitchen-design-islamabad
 
 ## Wardrobe design
 
@@ -35,7 +35,7 @@ Typical pricing factors:
 - Drawers, shelves, hanging zones and lighting
 - Hardware and installation details
 
-Quote URL: https://homestudiointeriors.pk/wardrobe-design-islamabad
+Quote URL: https://kovispace.com/wardrobe-design-islamabad
 
 ## Media wall design
 
@@ -46,7 +46,7 @@ Typical pricing factors:
 - Cable routing, socket planning and ventilation
 - LED backlighting and finish selection
 
-Quote URL: https://homestudiointeriors.pk/media-wall-design-islamabad
+Quote URL: https://kovispace.com/media-wall-design-islamabad
 
 ## Bathroom vanity design
 
@@ -57,7 +57,7 @@ Typical pricing factors:
 - Mirror and lighting selection
 - Wall-mounted or floor-standing design
 
-Quote URL: https://homestudiointeriors.pk/bathroom-vanities-islamabad
+Quote URL: https://kovispace.com/bathroom-vanities-islamabad
 
 ## Interior doors
 
@@ -67,7 +67,7 @@ Typical pricing factors:
 - Core type, frame detail and alignment
 - Handles, hinges and lockset selection
 
-Quote URL: https://homestudiointeriors.pk/doors-design-islamabad
+Quote URL: https://kovispace.com/doors-design-islamabad
 
 ## Full home remodeling
 
@@ -78,7 +78,7 @@ Typical pricing factors:
 - Material level and installation schedule
 - Site readiness and coordination needs
 
-Quote URL: https://homestudiointeriors.pk/home-remodeling-islamabad
+Quote URL: https://kovispace.com/home-remodeling-islamabad
 
 ## How to get an accurate quote
 

@@ -7,7 +7,7 @@ import { heroImage, processSteps, site } from '../data/site';
 const canonical = `${site.url}/process/`;
 const processQuestions = [
   {
-    question: 'How does Home Studio Interiors start a project?',
+    question: 'How does Kovispace Interior Studio start a project?',
     answer: 'Most projects begin with a short consultation, photos, measurements, location and service priorities. The team then guides the next step: site visit, design direction, material discussion or quotation.',
   },
   {
@@ -23,7 +23,7 @@ const itemListJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   '@id': `${canonical}#process`,
-  name: 'Home Studio Interiors design and execution process',
+  name: 'Kovispace Interior Studio design and execution process',
   itemListElement: processSteps.map((step, index) => ({
     '@type': 'ListItem',
     position: index + 1,
@@ -51,8 +51,8 @@ const breadcrumbJsonLd = {
 ---
 
 <Base
-  title="How We Work — Interior Design Process in Islamabad | Home Studio Interiors"
-  description="Learn the Home Studio Interiors process for consultation, measurements, design direction, material selection, quotation, execution and handover in Islamabad and Rawalpindi."
+  title="How We Work — Interior Design Process in Islamabad | Kovispace Interior Studio"
+  description="Learn the Kovispace Interior Studio process for consultation, measurements, design direction, material selection, quotation, execution and handover in Islamabad and Rawalpindi."
   image={heroImage}
   path="/process/"
   jsonLd={[itemListJsonLd, faqJsonLd, breadcrumbJsonLd]}
@@ -66,7 +66,7 @@ const breadcrumbJsonLd = {
       <p class="eyebrow text-accent" data-reveal>How we work</p>
       <h1 class="display-lg mt-5 max-w-5xl text-white" data-reveal style="--reveal-delay:.08s">A measured interior design process from first brief to handover.</h1>
       <p class="mt-6 max-w-3xl text-base leading-relaxed text-white/76 md:text-lg" data-reveal style="--reveal-delay:.16s">
-        Home Studio Interiors combines design direction, material guidance, quotation clarity and execution planning so homeowners in Islamabad and Rawalpindi can make confident decisions before work begins.
+        Kovispace Interior Studio combines design direction, material guidance, quotation clarity and execution planning so homeowners in Islamabad and Rawalpindi can make confident decisions before work begins.
       </p>
       <div class="mt-10 flex flex-wrap gap-3" data-reveal style="--reveal-delay:.24s">
         <a href="/contact" data-open-quote class="btn btn-solid">Get a Quote <Icon name="arrow" size={14} class="arrow" /></a>
