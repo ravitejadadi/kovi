@@ -174,7 +174,7 @@ export function initMotion() {
     if (lightboxCaption) lightboxCaption.textContent = caption;
     if (lightboxWa) {
       const text = encodeURIComponent(`Hi Kovi, I am interested in this design: ${caption}`);
-      lightboxWa.href = `https://wa.me/923392001959?text=${text}`;
+      lightboxWa.href = `https://wa.me/919912388288?text=${text}`;
     }
     lightbox.classList.remove('hidden');
     lightbox.setAttribute('aria-hidden', 'false');

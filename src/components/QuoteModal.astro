@@ -57,14 +57,14 @@ const timelineOptions = [
               </label>
               <label>
                 <span class="eyebrow text-muted">Phone Number</span>
-                <input required name="phone_number" type="tel" inputmode="tel" autocomplete="tel" pattern="^(?:\\+92|0)3\\d{9}$" placeholder="03001234567" class="mt-2 w-full rounded-xl border border-line bg-white/[0.035] px-4 py-3 text-white outline-none transition focus:border-accent" />
+                <input required name="phone_number" type="tel" inputmode="tel" autocomplete="tel" pattern="^(?:\\+91|0)?[6-9]\\d{9}$" placeholder="+91 99123 88288" class="mt-2 w-full rounded-xl border border-line bg-white/[0.035] px-4 py-3 text-white outline-none transition focus:border-accent" />
               </label>
             </div>
             <label class="block">
               <span class="eyebrow text-muted">Email Address</span>
               <input required name="email" type="email" autocomplete="email" maxlength="120" class="mt-2 w-full rounded-xl border border-line bg-white/[0.035] px-4 py-3 text-white outline-none transition focus:border-accent" />
             </label>
-            <p class="text-xs leading-6 text-muted">Pakistani phone formats supported: 03001234567 and +923001234567.</p>
+            <p class="text-xs leading-6 text-muted">Phone format: +91 99123 88288 or 9912388288.</p>
           </fieldset>
 
           <fieldset class="quote-step hidden space-y-5" data-quote-step="2">
@@ -176,8 +176,8 @@ const timelineOptions = [
           return true;
         }
         field.value = clean(field.value);
-        if (field.name === 'phone_number' && !/^(?:\+92|0)3\d{9}$/.test(field.value)) {
-          showMessage('error', 'Phone Number must be like 03001234567 or +923001234567.');
+        if (field.name === 'phone_number' && !/^(?:\+91|0)?[6-9]\d{9}$/.test(field.value.replace(/[\s-]/g, ''))) {
+          showMessage('error', 'Phone number must be like +91 99123 88288 or 9912388288.');
           field.focus();
           return false;
         }

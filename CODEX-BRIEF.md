@@ -41,7 +41,7 @@ Non-interactive: `sshpass -e ssh -p 65002 -o StrictHostKeyChecking=no u700603111
 | Blog | `/blog/` | 0 posts currently |
 | Testimonials | `/testimonials/` | |
 | Careers | `/careers/` | |
-| Contact | `/contact-2/` | info@kovispace.com · 0339 2001959 |
+| Contact | `/contact-2/` | info@kovispace.com · +91 99123 88288 |
 | Privacy | `/privacy-policy/` · Terms `/terms-condition/` | |
 
 Nav (Main Menu): Home, About, Services ▸ (Kitchen, Wardrobe, Vanities, Media Walls, Doors), Blog, Contact.
@@ -55,7 +55,7 @@ Best method = fetch the **rendered HTML** and strip chrome (Elementor renders co
 1. **From the server:** `curl -s https://kovispace.com/<slug>/` per page, then parse.
 2. **WP-CLI for structure:** `wp --path=<root> --skip-plugins --skip-themes post list --post_type=page --post_status=publish --fields=ID,post_name,post_title --format=csv` and `wp ... menu item list "Main Menu"`.
 
-Also grab site identity: `wp option get blogname`, `blogdescription`, and business NAP from the contact page (email `info@kovispace.com`, phone `0339 2001959`, "DeepthiSree Nagar, Madinaguda, Hyderabad, Pin 500 049", rating 4.95/260+).
+Also grab site identity: `wp option get blogname`, `blogdescription`, and business NAP from the contact page (email `info@kovispace.com`, phone `+91 99123 88288`, "DeepthiSree Nagar, Madinaguda, Hyderabad, Pin 500 049", rating 4.95/260+).
 
 Save each page as `_extraction/out/<slug>.json` and `<slug>.md` with the fields above, plus `_extraction/out/_index.json` (ordered section headings per page).
 

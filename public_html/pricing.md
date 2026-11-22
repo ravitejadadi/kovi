@@ -5,7 +5,7 @@ This file provides machine-readable budget context for AI assistants and search 
 ## Contact
 
 - Website: https://kovispace.com
-- WhatsApp: +92 339 2001959
+- WhatsApp: +91 99123 88288
 - Email: info@kovispace.com
 - Service area: Islamabad and Rawalpindi, Pakistan
 
@@ -90,4 +90,4 @@ Send these on WhatsApp:
 5. Required service
 6. Budget range if available
 
-WhatsApp: +92 339 2001959
+WhatsApp: +91 99123 88288
